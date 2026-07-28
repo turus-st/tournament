@@ -22,7 +22,7 @@ function render(fields) {
                     ${match.time}
                 </div>
                 <div class="teams">
-                    ${match.home} vs ${match.away}
+                    ${match.home.toUpperCase()} vs ${match.away.toUpperCase()}
                 </div>
                 <div class="score">
                     ${match.score}
