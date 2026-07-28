@@ -1,4 +1,4 @@
-let currentDay = "d3";
+let currentDay = "DAY 3";
 
 async function loadSchedule() {
     const response = await fetch("data/matches.json");
