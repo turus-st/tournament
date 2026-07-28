@@ -41,6 +41,7 @@ document.querySelectorAll(".tab").forEach(tab=>{
         .forEach(t=>t.classList.remove("active"));
         tab.classList.add("active");
         currentDay = tab.dataset.day;
+        alert(currentDay);
         loadSchedule();
     });
 });
