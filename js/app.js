@@ -21,14 +21,14 @@ function render(fields) {
                 <div class="time">
                     ${match.time}
                 </div>
-                <div class="category">
-                    ${match.category}
-                </div>
                 <div class="teams">
                     ${match.home.toUpperCase()} vs ${match.away.toUpperCase()}
                 </div>
                 <div class="score">
                     ${match.score}
+                </div>
+                <div class="category">
+                    ${match.category}
                 </div>
             </div>
             `;
