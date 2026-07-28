@@ -90,6 +90,12 @@ body{
     padding-left:15px;
 }
 
+.category{
+    color:var(--orange);
+    font-weight:bold;
+    padding-left:15px;
+}
+
 .teams{
     font-size:14px;
 }
