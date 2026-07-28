@@ -4,6 +4,7 @@ async function loadSchedule() {
     const response = await fetch("data/matches.json");
     const data = await response.json();
     render(data[currentDay]);
+    alert("hi");
 }
 
 function render(fields) {
