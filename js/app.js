@@ -4,7 +4,6 @@ async function loadSchedule() {
     const response = await fetch("data/matches.json");
     const data = await response.json();
     render(data[currentDay]);
-    alert("hi");
 }
 
 function render(fields) {
@@ -41,7 +40,6 @@ document.querySelectorAll(".tab").forEach(tab=>{
         .forEach(t=>t.classList.remove("active"));
         tab.classList.add("active");
         currentDay = tab.dataset.day;
-        alert(currentDay);
         loadSchedule();
     });
 });
