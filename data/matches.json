@@ -2,18 +2,21 @@
   "DAY 1": {
     "CAMPO Staranzano U12": [
       {
+        "category":"U12",
         "time": "08:30",
         "home": "ACADEMIX",
         "away": "VIENNA DUCKS",
         "score": "0 : 0"
       },
       {
+        "category":"U12",
         "time": "10:30",
         "home": "Staranzano",
         "away": "Redipuglia",
         "score": "0 : 0"
       },
       {
+        "category":"U12",
         "time": "12:30",
         "home": "Ronchi",
         "away": "ACADEMIX",
@@ -23,12 +26,14 @@
 
     "CAMPO Cervignano U15": [
       {
+        "category":"U15",
         "time": "09:00",
         "home": "Hurricanes Vienna",
         "away": "Pianoro",
         "score": "0 : 0"
       },
       {
+        "category":"U15",
         "time": "11:00",
         "home": "PSE",
         "away": "Jr. Alpina",
