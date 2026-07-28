@@ -1,0 +1,43 @@
+{
+  "venerdi": {
+    "CAMPO A": [
+      {
+        "time": "08:30",
+        "home": "ACADEMIX",
+        "away": "VIENNA DUCKS",
+        "score": "0 : 0"
+      },
+      {
+        "time": "10:30",
+        "home": "Staranzano",
+        "away": "Redipuglia",
+        "score": "0 : 0"
+      },
+      {
+        "time": "12:30",
+        "home": "Ronchi",
+        "away": "ACADEMIX",
+        "score": "0 : 0"
+      }
+    ],
+
+    "CAMPO B": [
+      {
+        "time": "09:00",
+        "home": "Hurricanes Vienna",
+        "away": "Pianoro",
+        "score": "0 : 0"
+      },
+      {
+        "time": "11:00",
+        "home": "PSE",
+        "away": "Jr. Alpina",
+        "score": "0 : 0"
+      }
+    ]
+  },
+
+  "sabato": {},
+
+  "domenica": {}
+}
