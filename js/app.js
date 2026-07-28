@@ -11,12 +11,12 @@ function render(fields) {
     schedule.innerHTML = "";
     Object.keys(fields).forEach(field => {
         schedule.innerHTML +=
-        `
+        '
             <div class="field-title">${field}</div>
-        `;
+        ';
         fields[field].forEach(match => {
             schedule.innerHTML +=
-            `
+            '
             <div class="match">
                 <div class="time">
                     ${match.time}
@@ -28,7 +28,7 @@ function render(fields) {
                     ${match.score}
                 </div>
             </div>
-            `;
+            ';
         });
     });
 }
