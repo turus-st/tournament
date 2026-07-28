@@ -5,7 +5,7 @@
     --white: #ffffff;
 }
 
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,9 +21,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-
     padding:10px 20px;
-
     border-bottom:2px solid var(--orange);
 }
 
@@ -35,12 +33,9 @@ body{
 .menu-btn{
     background:transparent;
     color:white;
-
     border:1px solid var(--orange);
-
     padding:8px 16px;
     border-radius:8px;
-
     cursor:pointer;
 }
 
@@ -55,23 +50,16 @@ body{
 .tabs{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-
     gap:10px;
-
     padding:10px;
 }
 
 .tab{
     background:#0e275f;
-
     color:white;
-
     border:1px solid var(--orange);
-
     border-radius:8px;
-
     padding:12px;
-
     cursor:pointer;
 }
 
@@ -81,37 +69,24 @@ body{
 
 .field-title{
     color:var(--orange);
-
     margin:20px 10px 10px;
-
     font-weight:bold;
 }
 
 .match{
-
     display:grid;
-
     grid-template-columns:100px 1fr 100px;
-
     align-items:center;
-
     background:var(--card);
-
     border:1px solid var(--orange);
-
     border-radius:10px;
-
     min-height:55px;
-
     margin:6px 10px;
-
 }
 
 .time{
     color:var(--orange);
-
     font-weight:bold;
-
     padding-left:15px;
 }
 
@@ -120,21 +95,15 @@ body{
 }
 
 .score{
-
     text-align:center;
-
     font-weight:bold;
-
     font-size:20px;
-
 }
 
 @media(max-width:700px){
-
     .match{
         grid-template-columns:70px 1fr 70px;
     }
-
     .teams{
         font-size:12px;
     }
