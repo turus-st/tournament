@@ -1,0 +1,5 @@
+<?php require_once __DIR__.'/config.php';
+function header_html(string $title,string $active=''): void { ?><!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071c36"><title><?=h($title)?> · <?=APP_NAME?></title><link rel="stylesheet" href="assets/app.css"></head><body><header><div class="wrap"><a class="brand" href="index.php">U12 Tournament <b>2026</b></a><nav><a class="<?= $active==='schedule'?'on':''?>" href="schedule.php">Schedule</a><a class="<?= $active==='live'?'on':''?>" href="live.php">Live</a><a class="<?= $active==='standings'?'on':''?>" href="standings.php">Standings</a><a class="<?= $active==='stats'?'on':''?>" href="stats.php">Player stats</a></nav></div></header><main class="wrap"><?php }
+function footer_html(): void { ?></main><footer>U12 Tournament 2026 · Public results service</footer><script src="assets/app.js"></script></body></html><?php }
+function status_badge(string $s): string { $label=['scheduled'=>'Scheduled','live'=>'In progress','completed'=>'Completed'][$s]??$s;return '<span class="status '.$s.'">'.$label.'</span>'; }
+?>
