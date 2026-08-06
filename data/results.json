@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T09:27:09.055Z",
+  "updatedAt": "2026-08-06T09:28:00.535Z",
   "games": {
     "1": {
       "score1": 1,
@@ -27,19 +27,19 @@
         "team": "DUCKS",
         "notes": "Punto vincente battuto a casa"
       },
-      "updatedAt": "2026-08-06T09:27:09.055Z"
+      "updatedAt": "2026-08-06T09:27:48.305Z"
     },
     "2": {
-      "status": "scheduled",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 1,
       "pitchers": [],
       "batters": [],
       "mvp": {
         "name": "",
         "team": "",
         "notes": ""
-      }
+      },
+      "updatedAt": "2026-08-06T09:28:00.535Z"
     },
     "3": {
       "status": "scheduled",
