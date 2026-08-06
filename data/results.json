@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "updatedAt": null,
+  "updatedAt": "2026-08-06T06:00:56.124Z",
   "games": {
     "1": {
-      "status": "scheduled",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 0,
       "pitchers": [],
       "batters": [],
       "mvp": {
         "name": "",
         "team": "",
         "notes": ""
-      }
+      },
+      "updatedAt": "2026-08-06T06:00:56.124Z"
     },
     "2": {
       "status": "scheduled",
@@ -134,18 +134,6 @@
         "notes": ""
       }
     },
-    "U10-1": {
-      "status": "scheduled",
-      "score1": null,
-      "score2": null,
-      "pitchers": [],
-      "batters": [],
-      "mvp": {
-        "name": "",
-        "team": "",
-        "notes": ""
-      }
-    },
     "12": {
       "status": "scheduled",
       "score1": null,
@@ -230,18 +218,6 @@
         "notes": ""
       }
     },
-    "U10-2": {
-      "status": "scheduled",
-      "score1": null,
-      "score2": null,
-      "pitchers": [],
-      "batters": [],
-      "mvp": {
-        "name": "",
-        "team": "",
-        "notes": ""
-      }
-    },
     "19": {
       "status": "scheduled",
       "score1": null,
@@ -267,18 +243,6 @@
       }
     },
     "21": {
-      "status": "scheduled",
-      "score1": null,
-      "score2": null,
-      "pitchers": [],
-      "batters": [],
-      "mvp": {
-        "name": "",
-        "team": "",
-        "notes": ""
-      }
-    },
-    "U10-3": {
       "status": "scheduled",
       "score1": null,
       "score2": null,
@@ -459,6 +423,42 @@
       }
     },
     "36": {
+      "status": "scheduled",
+      "score1": null,
+      "score2": null,
+      "pitchers": [],
+      "batters": [],
+      "mvp": {
+        "name": "",
+        "team": "",
+        "notes": ""
+      }
+    },
+    "U10-1": {
+      "status": "scheduled",
+      "score1": null,
+      "score2": null,
+      "pitchers": [],
+      "batters": [],
+      "mvp": {
+        "name": "",
+        "team": "",
+        "notes": ""
+      }
+    },
+    "U10-2": {
+      "status": "scheduled",
+      "score1": null,
+      "score2": null,
+      "pitchers": [],
+      "batters": [],
+      "mvp": {
+        "name": "",
+        "team": "",
+        "notes": ""
+      }
+    },
+    "U10-3": {
       "status": "scheduled",
       "score1": null,
       "score2": null,
