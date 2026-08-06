@@ -1,18 +1,33 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T06:02:10.030Z",
+  "updatedAt": "2026-08-06T09:27:09.055Z",
   "games": {
     "1": {
       "score1": 1,
       "score2": 0,
-      "pitchers": [],
+      "pitchers": [
+        {
+          "name": "Giulia",
+          "team": "DUCKS",
+          "rl": 1,
+          "runsAllowed": 1,
+          "pgl": 0
+        },
+        {
+          "name": "Mirko",
+          "team": "DUCKS",
+          "rl": 1,
+          "runsAllowed": 1,
+          "pgl": 0
+        }
+      ],
       "batters": [],
       "mvp": {
-        "name": "",
-        "team": "",
-        "notes": ""
+        "name": "Giulia",
+        "team": "DUCKS",
+        "notes": "Punto vincente battuto a casa"
       },
-      "updatedAt": "2026-08-06T06:02:10.030Z"
+      "updatedAt": "2026-08-06T09:27:09.055Z"
     },
     "2": {
       "status": "scheduled",
