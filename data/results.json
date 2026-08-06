@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T06:00:56.124Z",
+  "updatedAt": "2026-08-06T06:02:10.030Z",
   "games": {
     "1": {
       "score1": 1,
@@ -12,7 +12,7 @@
         "team": "",
         "notes": ""
       },
-      "updatedAt": "2026-08-06T06:00:56.124Z"
+      "updatedAt": "2026-08-06T06:02:10.030Z"
     },
     "2": {
       "status": "scheduled",
