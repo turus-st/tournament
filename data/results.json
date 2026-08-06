@@ -3,6 +3,7 @@
   "updatedAt": "2026-08-06T06:02:10.030Z",
   "games": {
     "1": {
+      "status": "scheduled",
       "score1": 1,
       "score2": 0,
       "pitchers": [],
