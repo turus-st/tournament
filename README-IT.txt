@@ -1,4 +1,4 @@
-U12 TOURNAMENT 2026 - GITHUB PAGES PACKAGE
+U12 TOURNAMENT 2026 - GITHUB PAGES PACKAGE 
 
 PACKAGE CONTENTS
 - Public English pages: index.html, schedule.html, live.html, standings.html, stats.html
