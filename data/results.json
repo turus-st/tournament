@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T09:39:38.412Z",
+  "updatedAt": "2026-08-06T09:42:05.527Z",
   "games": {
     "1": {
       "score1": 1,
@@ -39,19 +39,27 @@
         "team": "DUCKS",
         "notes": "Fuoricampo"
       },
-      "updatedAt": "2026-08-06T09:39:38.412Z"
+      "updatedAt": "2026-08-06T09:41:34.352Z"
     },
     "3": {
-      "status": "scheduled",
       "score1": null,
       "score2": null,
-      "pitchers": [],
+      "pitchers": [
+        {
+          "name": "Mirki",
+          "team": "DUCKS",
+          "rl": 3,
+          "runsAllowed": 1,
+          "pgl": 1
+        }
+      ],
       "batters": [],
       "mvp": {
         "name": "",
         "team": "",
         "notes": ""
-      }
+      },
+      "updatedAt": "2026-08-06T09:42:05.527Z"
     },
     "4": {
       "status": "scheduled",
