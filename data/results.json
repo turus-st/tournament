@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T12:38:42.488Z",
+  "updatedAt": "2026-08-06T12:48:37.142Z",
   "games": {
     "1": {
       "score1": 1,
@@ -27,7 +27,7 @@
         "team": "DUCKS",
         "notes": "Punto vincente battuto a casa"
       },
-      "updatedAt": "2026-08-06T12:38:42.488Z"
+      "updatedAt": "2026-08-06T12:48:37.142Z"
     },
     "2": {
       "score1": 1,
@@ -39,7 +39,7 @@
         "team": "DUCKS",
         "notes": "Fuoricampo"
       },
-      "updatedAt": "2026-08-06T12:34:30.095Z"
+      "updatedAt": "2026-08-06T12:48:01.993Z"
     },
     "3": {
       "score1": null,
@@ -59,10 +59,9 @@
         "team": "",
         "notes": ""
       },
-      "updatedAt": "2026-08-06T12:34:38.196Z"
+      "updatedAt": "2026-08-06T12:48:04.010Z"
     },
     "4": {
-      "status": "scheduled",
       "score1": null,
       "score2": null,
       "pitchers": [],
@@ -71,7 +70,8 @@
         "name": "",
         "team": "",
         "notes": ""
-      }
+      },
+      "updatedAt": "2026-08-06T12:47:49.398Z"
     },
     "5": {
       "score1": null,
