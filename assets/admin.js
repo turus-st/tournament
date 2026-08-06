@@ -17,12 +17,12 @@ function pitcherRow(x={}){return `<div class="statrow pitchrow"><input data-f="n
 function batterRow(x={}){return `<div class="statrow"><input data-f="name" placeholder="Name" value="${esc(x.name||'')}"><input data-f="team" placeholder="Team" value="${esc(x.team||'')}"><input data-f="h" type="number" min="0" placeholder="H" value="${val(x.h)}"><input data-f="tb" type="number" min="0" placeholder="TB" value="${val(x.tb)}"><input data-f="ab" type="number" min="0" placeholder="AB" value="${val(x.ab)}"><input data-f="rbi" type="number" min="0" placeholder="RBI" value="${val(x.rbi)}"><button type="button" class="btn alt remove">Remove</button></div>`}
 function loadGame(){current=gameSelect.value;const g=schedule.find(x=>x.game===current),r=gameData(g,results);
                     gameTitle.textContent=`Game ${g.game} · ${g.team1} vs ${g.team2}`;
-                    const statusCombo = document.getElementById("status");statusCombo.value=r.status;score1.value=val(r.score1);score2.value=val(r.score2);
+                    const status = document.getElementById("status");status.value=r.status;score1.value=val(r.score1);score2.value=val(r.score2);
                     pitchers.innerHTML=r.pitchers.map(pitcherRow).join('');
                     batters.innerHTML=r.batters.map(batterRow).join('');mvpName.value=r.mvp?.name||'';mvpTeam.value=r.mvp?.team||'';
                     mvpNotes.value=r.mvp?.notes||''}
 function collectRows(container,fields){return [...container.children].map(row=>Object.fromEntries(fields.map(f=>{const el=row.querySelector(`[data-f="${f}"]`);return [f,el.type==='number'?(el.value===''?0:Number(el.value)):el.value.trim()]}))).filter(x=>x.name)}
-function saveCurrent(){const r=results.games[current]??={};r.status=statusCombo.value;r.score1=score1.value===''?null:Number(score1.value);r.score2=score2.value===''?null:Number(score2.value);r.pitchers=collectRows(pitchers,['name','team','rl','runsAllowed','pgl']);
+function saveCurrent(){const r=results.games[current]??={};r.status=status.value;r.score1=score1.value===''?null:Number(score1.value);r.score2=score2.value===''?null:Number(score2.value);r.pitchers=collectRows(pitchers,['name','team','rl','runsAllowed','pgl']);
                    r.batters=collectRows(batters,['name','team','h','tb','ab','rbi']);r.mvp={name:mvpName.value.trim(),team:mvpTeam.value.trim(),notes:mvpNotes.value.trim()};r.updatedAt=new Date().toISOString();results.updatedAt=r.updatedAt;message(`Game ${current} saved in the working copy. Use Publish to GitHub to make it public.`)}
 async function publish(){try{saveCurrent();const c=config();if(!sha)throw Error('Connect to GitHub before publishing.');publish.disabled=true;message('Publishing…');
                    const body={message:`Update tournament results ${new Date().toISOString()}`,content:encode64(JSON.stringify(results,null,2)+'\n'),sha,branch:c.branch};
