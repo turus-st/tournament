@@ -1,67 +1,45 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T14:47:47.913Z",
+  "updatedAt": null,
   "games": {
     "1": {
-      "score1": 1,
-      "score2": 0,
-      "pitchers": [
-        {
-          "name": "Giulia",
-          "team": "DUCKS",
-          "rl": 1,
-          "runsAllowed": 1,
-          "pgl": 0
-        },
-        {
-          "name": "Mirko",
-          "team": "DUCKS",
-          "rl": 1,
-          "runsAllowed": 1,
-          "pgl": 0
-        }
-      ],
+      "status": "scheduled",
+      "score1": null,
+      "score2": null,
+      "pitchers": [],
       "batters": [],
       "mvp": {
-        "name": "Giulia",
-        "team": "DUCKS",
-        "notes": "Punto vincente battuto a casa"
-      },
-      "updatedAt": "2026-08-06T14:47:47.913Z"
+        "name": "",
+        "team": "",
+        "notes": ""
+      }
     },
     "2": {
-      "score1": 1,
-      "score2": 1,
+      "status": "scheduled",
+      "score1": null,
+      "score2": null,
       "pitchers": [],
       "batters": [],
       "mvp": {
-        "name": "Mirko",
-        "team": "DUCKS",
-        "notes": "Fuoricampo"
-      },
-      "updatedAt": "2026-08-06T14:47:42.679Z"
+        "name": "",
+        "team": "",
+        "notes": ""
+      }
     },
     "3": {
+      "status": "scheduled",
       "score1": null,
       "score2": null,
-      "pitchers": [
-        {
-          "name": "Mirko",
-          "team": "DUCKS",
-          "rl": 3,
-          "runsAllowed": 1,
-          "pgl": 1
-        }
-      ],
+      "pitchers": [],
       "batters": [],
       "mvp": {
         "name": "",
         "team": "",
         "notes": ""
-      },
-      "updatedAt": "2026-08-06T14:47:25.311Z"
+      }
     },
     "4": {
+      "status": "scheduled",
       "score1": null,
       "score2": null,
       "pitchers": [],
@@ -70,10 +48,10 @@
         "name": "",
         "team": "",
         "notes": ""
-      },
-      "updatedAt": "2026-08-06T14:47:27.545Z"
+      }
     },
     "5": {
+      "status": "scheduled",
       "score1": null,
       "score2": null,
       "pitchers": [],
@@ -82,8 +60,7 @@
         "name": "",
         "team": "",
         "notes": ""
-      },
-      "updatedAt": "2026-08-06T11:38:32.671Z"
+      }
     },
     "6": {
       "status": "scheduled",
@@ -157,6 +134,18 @@
         "notes": ""
       }
     },
+    "U10-1": {
+      "status": "scheduled",
+      "score1": null,
+      "score2": null,
+      "pitchers": [],
+      "batters": [],
+      "mvp": {
+        "name": "",
+        "team": "",
+        "notes": ""
+      }
+    },
     "12": {
       "status": "scheduled",
       "score1": null,
@@ -194,6 +183,7 @@
       }
     },
     "15": {
+      "status": "scheduled",
       "score1": null,
       "score2": null,
       "pitchers": [],
@@ -202,8 +192,7 @@
         "name": "",
         "team": "",
         "notes": ""
-      },
-      "updatedAt": "2026-08-06T14:47:36.487Z"
+      }
     },
     "16": {
       "status": "scheduled",
@@ -241,6 +230,18 @@
         "notes": ""
       }
     },
+    "U10-2": {
+      "status": "scheduled",
+      "score1": null,
+      "score2": null,
+      "pitchers": [],
+      "batters": [],
+      "mvp": {
+        "name": "",
+        "team": "",
+        "notes": ""
+      }
+    },
     "19": {
       "status": "scheduled",
       "score1": null,
@@ -266,6 +267,18 @@
       }
     },
     "21": {
+      "status": "scheduled",
+      "score1": null,
+      "score2": null,
+      "pitchers": [],
+      "batters": [],
+      "mvp": {
+        "name": "",
+        "team": "",
+        "notes": ""
+      }
+    },
+    "U10-3": {
       "status": "scheduled",
       "score1": null,
       "score2": null,
@@ -446,42 +459,6 @@
       }
     },
     "36": {
-      "status": "scheduled",
-      "score1": null,
-      "score2": null,
-      "pitchers": [],
-      "batters": [],
-      "mvp": {
-        "name": "",
-        "team": "",
-        "notes": ""
-      }
-    },
-    "U10-1": {
-      "score1": null,
-      "score2": null,
-      "pitchers": [],
-      "batters": [],
-      "mvp": {
-        "name": "",
-        "team": "",
-        "notes": ""
-      },
-      "updatedAt": "2026-08-06T14:47:30.327Z"
-    },
-    "U10-2": {
-      "status": "scheduled",
-      "score1": null,
-      "score2": null,
-      "pitchers": [],
-      "batters": [],
-      "mvp": {
-        "name": "",
-        "team": "",
-        "notes": ""
-      }
-    },
-    "U10-3": {
       "status": "scheduled",
       "score1": null,
       "score2": null,
