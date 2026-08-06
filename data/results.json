@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T09:28:00.535Z",
+  "updatedAt": "2026-08-06T09:39:38.412Z",
   "games": {
     "1": {
       "score1": 1,
@@ -35,11 +35,11 @@
       "pitchers": [],
       "batters": [],
       "mvp": {
-        "name": "",
-        "team": "",
-        "notes": ""
+        "name": "Mirko",
+        "team": "DUCKS",
+        "notes": "Fuoricampo"
       },
-      "updatedAt": "2026-08-06T09:28:00.535Z"
+      "updatedAt": "2026-08-06T09:39:38.412Z"
     },
     "3": {
       "status": "scheduled",
