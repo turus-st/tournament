@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T12:48:37.142Z",
+  "updatedAt": "2026-08-06T14:47:47.913Z",
   "games": {
     "1": {
       "score1": 1,
@@ -27,7 +27,7 @@
         "team": "DUCKS",
         "notes": "Punto vincente battuto a casa"
       },
-      "updatedAt": "2026-08-06T12:48:37.142Z"
+      "updatedAt": "2026-08-06T14:47:47.913Z"
     },
     "2": {
       "score1": 1,
@@ -39,7 +39,7 @@
         "team": "DUCKS",
         "notes": "Fuoricampo"
       },
-      "updatedAt": "2026-08-06T12:48:01.993Z"
+      "updatedAt": "2026-08-06T14:47:42.679Z"
     },
     "3": {
       "score1": null,
@@ -59,7 +59,7 @@
         "team": "",
         "notes": ""
       },
-      "updatedAt": "2026-08-06T12:48:04.010Z"
+      "updatedAt": "2026-08-06T14:47:25.311Z"
     },
     "4": {
       "score1": null,
@@ -71,7 +71,7 @@
         "team": "",
         "notes": ""
       },
-      "updatedAt": "2026-08-06T12:47:49.398Z"
+      "updatedAt": "2026-08-06T14:47:27.545Z"
     },
     "5": {
       "score1": null,
@@ -194,7 +194,6 @@
       }
     },
     "15": {
-      "status": "scheduled",
       "score1": null,
       "score2": null,
       "pitchers": [],
@@ -203,7 +202,8 @@
         "name": "",
         "team": "",
         "notes": ""
-      }
+      },
+      "updatedAt": "2026-08-06T14:47:36.487Z"
     },
     "16": {
       "status": "scheduled",
@@ -467,7 +467,7 @@
         "team": "",
         "notes": ""
       },
-      "updatedAt": "2026-08-06T12:34:42.308Z"
+      "updatedAt": "2026-08-06T14:47:30.327Z"
     },
     "U10-2": {
       "status": "scheduled",
