@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T09:42:05.527Z",
+  "updatedAt": "2026-08-06T11:39:00.060Z",
   "games": {
     "1": {
       "score1": 1,
@@ -27,7 +27,7 @@
         "team": "DUCKS",
         "notes": "Punto vincente battuto a casa"
       },
-      "updatedAt": "2026-08-06T09:27:48.305Z"
+      "updatedAt": "2026-08-06T11:38:38.357Z"
     },
     "2": {
       "score1": 1,
@@ -39,14 +39,14 @@
         "team": "DUCKS",
         "notes": "Fuoricampo"
       },
-      "updatedAt": "2026-08-06T09:41:34.352Z"
+      "updatedAt": "2026-08-06T11:38:44.619Z"
     },
     "3": {
       "score1": null,
       "score2": null,
       "pitchers": [
         {
-          "name": "Mirki",
+          "name": "Mirko",
           "team": "DUCKS",
           "rl": 3,
           "runsAllowed": 1,
@@ -59,7 +59,7 @@
         "team": "",
         "notes": ""
       },
-      "updatedAt": "2026-08-06T09:42:05.527Z"
+      "updatedAt": "2026-08-06T11:39:00.060Z"
     },
     "4": {
       "status": "scheduled",
@@ -74,7 +74,6 @@
       }
     },
     "5": {
-      "status": "scheduled",
       "score1": null,
       "score2": null,
       "pitchers": [],
@@ -83,7 +82,8 @@
         "name": "",
         "team": "",
         "notes": ""
-      }
+      },
+      "updatedAt": "2026-08-06T11:38:32.671Z"
     },
     "6": {
       "status": "scheduled",
