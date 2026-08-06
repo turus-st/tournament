@@ -3,7 +3,7 @@
   "updatedAt": null,
   "games": {
     "1": {
-      "status": "scheduled",
+      "status": "completed",
       "score1": null,
       "score2": null,
       "pitchers": [],
@@ -15,7 +15,7 @@
       }
     },
     "2": {
-      "status": "scheduled",
+      "status": "live",
       "score1": null,
       "score2": null,
       "pitchers": [],
@@ -27,9 +27,9 @@
       }
     },
     "3": {
-      "status": "scheduled",
-      "score1": null,
-      "score2": null,
+      "status": "live",
+      "score1": "1",
+      "score2": "1",
       "pitchers": [],
       "batters": [],
       "mvp": {
